@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create a random password for the secret
 resource "random_password" "secret_password" {
-  length  = 18
+  length  = 19
   special = true
 }
 
